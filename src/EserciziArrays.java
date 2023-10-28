@@ -66,7 +66,6 @@ class Ex26 {
         int[] nums = {1, 1, 5, 6, 7, 8, 8};
         int[] newNums = removeDuplicates(nums);
 
-        // Stampa il nuovo array senza duplicati
         for (int i = 0; i < newNums.length; i++) {
             System.out.print(newNums[i] + " ");
         }
@@ -92,7 +91,6 @@ class Ex26 {
             }
         }
 
-        // Ridimensiona il nuovo array al numero effettivo di elementi unici
         int[] result = new int[indice];
         for (int i = 0; i < indice; i++) {
             result[i] = newNums[i];
