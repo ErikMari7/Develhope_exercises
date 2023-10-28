@@ -57,4 +57,48 @@ class Ex24 {
 
 
 }
+/*  Scrivere un programma che contenga un metodo che
+ permetta di rimuovere gli elementi duplicati in un
+  array di interi. L'array ottenuto dovrà essere stampato a video.
+ */
+class Ex26 {
+    public static void main(String[] args) {
+        int[] nums = {1, 1, 5, 6, 7, 8, 8};
+        int[] newNums = removeDuplicates(nums);
+
+        // Stampa il nuovo array senza duplicati
+        for (int i = 0; i < newNums.length; i++) {
+            System.out.print(newNums[i] + " ");
+        }
+    }
+
+    public static int[] removeDuplicates(int[] nums) {
+        int length = nums.length;
+        int[] newNums = new int[length];
+        int indice = 0;
+
+        for (int i = 0; i < length; i++) {
+            boolean sameValue = false;
+            for (int j = 0; j < i; j++) {
+                if (nums[i] == newNums[j]) {
+                    sameValue = true;
+                    break;
+                }
+            }
+
+            if (!sameValue) {
+                newNums[indice] = nums[i];
+                indice++;
+            }
+        }
+
+        // Ridimensiona il nuovo array al numero effettivo di elementi unici
+        int[] result = new int[indice];
+        for (int i = 0; i < indice; i++) {
+            result[i] = newNums[i];
+        }
+
+        return result;
+    }
+}
 
