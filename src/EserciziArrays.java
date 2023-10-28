@@ -30,12 +30,13 @@ class Ex24 {
      public static void main(String args[]) {
         char[] Caratteri = createArray();
         SumOfAllA(Caratteri);
-
+        System.out.println( Caratteri);
      }
      public static char[] createArray() {
-         char[] Caratteri = {'a', 'b', 'c', 'd', 'a', 'a'};
-         for (int i = 0; i < Caratteri.length; i++) {
-
+         int length = 10;
+         char[] Caratteri = new char[length];
+         for (int i = 0; i < length; i++) {
+            Caratteri[i] = (char) ('a' + (int) (Math.random() * 20));
          }
          return Caratteri;
 
