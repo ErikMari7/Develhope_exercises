@@ -6,15 +6,23 @@
 
 class Ex27 {
     public static void main(String args[]) {
-        Initmatrix();
+        System.out.println("La somma degli elementi  nella prima riga è: " + SommaPrimaRiga(initMatrix()));
     }
-    public static void Initmatrix() {
+    public static int[][] initMatrix() {
+        int[][] matrix = new int[5][5];
+        for( int i = 0; i < matrix.length; i++) {
+            for( int j = 0; j < matrix[i].length; j++) {
+                matrix[i][j] = 3;
+            }
+        }
+        return matrix;
+    }
+    public static int SommaPrimaRiga(int[][]matrix) {
         int sumOf = 0;
-        int[][] matrix = {{1,8,5,10}, {7,2,4,8,6,10}};
         for( int SumOfNumbers: matrix[0]) {
             sumOf += SumOfNumbers;
         }
-        System.out.println("La somma degli elementi  nella prima riga è: " + sumOf);
+       return sumOf;
     }
 }
 
