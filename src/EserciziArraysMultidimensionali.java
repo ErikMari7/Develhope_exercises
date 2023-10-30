@@ -11,11 +11,6 @@ class Ex27 {
     public static void Initmatrix() {
         int sumOf = 0;
         int[][] matrix = {{1,8,5,10}, {7,2,4,8,6,10}};
-        for(int i = 0; i < matrix.length; i++) {
-            for(int j = 0; j < matrix[i].length; j++) {
-
-            }
-        }
         for( int SumOfNumbers: matrix[0]) {
             sumOf += SumOfNumbers;
         }
