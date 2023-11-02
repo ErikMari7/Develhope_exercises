@@ -25,24 +25,27 @@ public class StudenteEx29 {
         return nome;
     }
 
-    public void setNome(String nome) {
+    public String setNome(String nome) {
         this.nome = nome;
+        return nome;
     }
 
     public String getCognome() {
         return cognome;
     }
 
-    public void setCognome(String cognome) {
+    public String setCognome(String cognome) {
         this.cognome = cognome;
+        return cognome;
     }
 
     public int getID() {
         return ID;
     }
 
-    public void setID( int ID) {
+    public int setID( int ID) {
         this.ID =ID;
+        return ID;
     }
 
     @Override
