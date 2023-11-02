@@ -8,6 +8,7 @@ public class MainEx29 {
         System.out.println("Studente1 cognome con getter: " + studente1.getCognome());
         System.out.println("Studente1 ID con getter: " + studente1.getID());
 
+
         studente1.setNome("Erik");
         studente1.setCognome("Marigliano");
         studente1.setID(1234567);
