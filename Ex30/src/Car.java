@@ -27,32 +27,36 @@ public class Car {
         return displacement;
     }
 
-    public void setDisplacement(int displacement) {
+    public int setDisplacement(int displacement) {
         this.displacement = displacement;
+        return displacement;
     }
 
     public String getPlate() {
         return plate;
     }
 
-    public void setPlate(String plate) {
+    public String setPlate(String plate) {
         this.plate = plate;
+        return plate;
     }
 
     public String getBrand() {
         return brand;
     }
 
-    public void setBrand(String brand) {
+    public String setBrand(String brand) {
         this.brand = brand;
+        return brand;
     }
 
     public String getModel() {
         return model;
     }
 
-    public void setModel(String model) {
+    public String setModel(String model) {
         this.model = model;
+        return model;
     }
 
     @Override
