@@ -12,9 +12,7 @@ public class Forma {
         return altezza;
     }
 
-    public void calcolaArea(){
-
-        System.out.println("Per il calcolo dell'area delle forme i valori sono: " + getBase() + " e " + getAltezza());
-
-    }
+    public int calcolaArea() {
+        return 0;
+   }
 }
