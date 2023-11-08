@@ -1,18 +1,18 @@
 package esercizio33;
 
 public class Forma {
-    private int base =62;
-    private int altezza = 40;
+    private double base =62;
+    private double altezza = 40;
 
-    public int getBase(){
+    public double getBase(){
         return base;
     }
 
-    public int getAltezza(){
+    public double getAltezza(){
         return altezza;
     }
 
-    public int calcolaArea() {
+    public double calcolaArea() {
         return 0;
    }
 }

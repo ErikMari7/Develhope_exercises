@@ -2,7 +2,7 @@ package esercizio34;
 
 public class Triangolo extends Forma{
     @Override
-    public int calcolaArea() {
+    public double calcolaArea() {
         return (getBase() * getAltezza()) /2;
     }
 }

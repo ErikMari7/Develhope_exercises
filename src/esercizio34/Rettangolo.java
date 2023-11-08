@@ -2,7 +2,7 @@ package esercizio34;
 
 public class Rettangolo extends Forma{
     @Override
-    public int calcolaArea() {
+    public double calcolaArea() {
         return getBase() * getAltezza();
     }
 }
