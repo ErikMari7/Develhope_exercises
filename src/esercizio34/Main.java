@@ -10,8 +10,8 @@ public class Main {
         Forma forma = new Forma();
         Rettangolo rettangolo = new Rettangolo();
         Triangolo triangolo = new Triangolo();
-        System.out.println("Area forma: " + forma.calcolaArea());
-        System.out.println("Area Rettangolo: " + rettangolo.calcolaArea());
-        System.out.println("Area Triangolo: " + triangolo.calcolaArea());
+        System.out.println("Area della forma: " + forma.calcolaArea());
+        System.out.println("Area del rettangolo: " + rettangolo.calcolaArea());
+        System.out.println("Area del triangolo: " + triangolo.calcolaArea());
     }
 }

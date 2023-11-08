@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
         Forma forma = new Forma();
         Rettangolo rettangolo = new Rettangolo();
-        System.out.println("Area forma: " + forma.calcolaArea());
-        System.out.println("Area Rettangolo: " + rettangolo.calcolaArea());
+        System.out.println("Area della forma: " + forma.calcolaArea());
+        System.out.println("Area del rettangolo: " + rettangolo.calcolaArea());
 
     }
 }
