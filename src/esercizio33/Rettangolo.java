@@ -4,6 +4,6 @@ public class Rettangolo extends Forma{
 
     @Override
     public void calcolaArea() {
-        System.out.println("L'area del rettangolo è: " + getBase() * getAltezza());
+        System.out.println("L'area rettangolo: " + getBase() * getAltezza());
     }
 }
