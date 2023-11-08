@@ -2,7 +2,7 @@ package esercizio34;
 
 public class Forma {
     private double base =62;
-    private int altezza = 40;
+    private double altezza = 40;
 
     public double getBase(){
         return base;
