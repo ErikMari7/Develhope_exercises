@@ -6,3 +6,5 @@ public class Rettangolo extends Forma{
         return getBase() * getAltezza();
     }
 }
+
+
