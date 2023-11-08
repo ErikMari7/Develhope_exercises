@@ -8,7 +8,7 @@ package esercizio33;
 public class Main {
     public static void main(String[] args) {
         Forma forma = new Forma();
-        Rettangolo rettangolo = new Rettangolo();
+        Rettangolo rettangolo = new Rettangolo(60,72);
         System.out.println("Area della forma: " + forma.calcolaArea());
         System.out.println("Area del rettangolo: " + rettangolo.calcolaArea());
 

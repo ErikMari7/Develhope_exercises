@@ -8,8 +8,8 @@ package esercizio34;
 public class Main {
     public static void main(String[] args) {
         Forma forma = new Forma();
-        Rettangolo rettangolo = new Rettangolo();
-        Triangolo triangolo = new Triangolo();
+        Rettangolo rettangolo = new Rettangolo(72,99);
+        Triangolo triangolo = new Triangolo(12,20);
         System.out.println("Area della forma: " + forma.calcolaArea());
         System.out.println("Area del rettangolo: " + rettangolo.calcolaArea());
         System.out.println("Area del triangolo: " + triangolo.calcolaArea());
