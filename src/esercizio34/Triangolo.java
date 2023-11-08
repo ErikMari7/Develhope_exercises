@@ -10,16 +10,8 @@ public class Triangolo extends Forma{
         this.altezza = altezza;
     }
 
-    public double getBase(){
-        return base;
-    }
-
-    public double getAltezza(){
-        return altezza;
-    }
-
     @Override
     public double calcolaArea() {
-        return (getBase() * getAltezza()) /2;
+        return (base * altezza) /2;
     }
 }

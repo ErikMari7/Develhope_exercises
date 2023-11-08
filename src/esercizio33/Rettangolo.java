@@ -10,17 +10,9 @@ public class Rettangolo extends Forma{
         this.altezza = altezza;
     }
 
-    public double getBase(){
-        return base;
-    }
-
-    public double getAltezza(){
-        return altezza;
-    }
-
     @Override
     public double calcolaArea() {
-        return getBase() * getAltezza();
+        return base * altezza;
     }
 }
 
