@@ -17,14 +17,5 @@ public class Rettangolo extends Forma {
     public double calcolaArea() {
         return base * altezza;
     }
-
-    @Override
-    public String toString() {
-        return "Rettangolo{" +
-                "base=" + base +
-                ", altezza=" + altezza +
-                ", tipo=" + tipo +
-                '}';
-    }
 }
 

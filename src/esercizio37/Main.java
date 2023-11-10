@@ -12,9 +12,7 @@ public class Main {
         Rettangolo rettangolo = new Rettangolo(72,99, TipoForma.Rettangolo);
         Triangolo triangolo = new Triangolo(12,20, TipoForma.Triangolo);
         System.out.println("Area della forma: " + forma.calcolaArea());
-        System.out.println("Area del rettangolo: " + rettangolo.calcolaArea());
-        System.out.println("Area del triangolo: " + triangolo.calcolaArea());
-        System.out.println(rettangolo);
-        System.out.println(triangolo);
+        System.out.println("Area del " + TipoForma.Rettangolo + " è: " + rettangolo.calcolaArea());
+        System.out.println("Area del " + TipoForma.Triangolo + " è: " +triangolo.calcolaArea());
     }
 }

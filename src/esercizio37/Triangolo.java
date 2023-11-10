@@ -17,13 +17,4 @@ public class Triangolo extends Forma {
     public double calcolaArea() {
         return (base * altezza) /2;
     }
-
-    @Override
-    public String toString() {
-        return "Triangolo{" +
-                "base=" + base +
-                ", altezza=" + altezza +
-                ", tipo=" + tipo +
-                '}';
-    }
 }
