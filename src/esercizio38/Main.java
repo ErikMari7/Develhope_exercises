@@ -1,4 +1,4 @@
-package Esercizio38;
+package esercizio38;
 
 //Scrivi un programma Java che abbia un metodo che prenda due
 //        stringhe e le compari lessico-graficamente.
