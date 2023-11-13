@@ -14,7 +14,8 @@ public class Main {
     public static void operazione(int[] array) {
         int divisione = 0;
         try {
-            System.out.println(divisione = array[10]/0);
+            //qui è possibile mettere sia un indice presente nell'array avendo la divisione per 0, sia un index fuori dai limiti
+            System.out.println(divisione = array[4]/0);
             throw new ArithmeticException();
         } catch (ArithmeticException e) {
             System.out.println("Message String: " + e.getMessage());
