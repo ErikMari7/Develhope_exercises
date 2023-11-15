@@ -12,17 +12,10 @@ public class Main {
 
     public static boolean RangeNumero(int Numero) {
 
-        boolean result = true;
-
-            try {
-                if(Numero <= 0 || Numero > 10) {
-                    throw new ArithmeticException("Numero");
-                }
-            } catch (ArithmeticException e) {
-                System.out.println("C'è stato un errore: " + e);
-                result = false;
-            }
-
-        return result;
+        if(Numero <= 0 || Numero > 10) {
+            throw new ArithmeticException("Numero");
+        } else {
+            return true;
+        }
     }
 }
