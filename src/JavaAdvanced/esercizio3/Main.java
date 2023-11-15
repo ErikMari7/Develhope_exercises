@@ -6,11 +6,12 @@ package JavaAdvanced.esercizio3;
 public class Main {
     public static void main(String[] args) {
         int Numero = 2;
+        division(Numero);
+    }
 
-
+    public static void division(int Numero) {
         try {
-            int Risultato = Numero/0;
-            throw new ArithmeticException();
+            int Risultato = Numero / 0;
         } catch (ArithmeticException e) {
             System.out.println("Message String = " + e.getMessage());
         }
