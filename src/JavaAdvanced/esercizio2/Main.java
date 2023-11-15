@@ -5,15 +5,15 @@ package JavaAdvanced.esercizio2;
 
 public class Main {
     public static void main(String[]args) {
-        char First = '9';
+        char First = 'x';
+        control(First);
+    }
+    public static void control(char First) {
         if(Character.isDigit(First)) {
             System.out.println("È un numero");
         } else {
-            try {
-                throw new ArithmeticException();
-            } catch (ArithmeticException e) {
-                System.out.println("C'è stato un errore");
-            }
+            throw new ArithmeticException("Il carattere non è un numero");
         }
     }
 }
+
