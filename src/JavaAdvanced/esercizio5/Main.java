@@ -7,38 +7,35 @@ package JavaAdvanced.esercizio5;
 public class Main {
 
     public static double control(Integer numeratore,Integer denominatore) {
-       try {
+
            if (numeratore == null || denominatore == null) {
                throw new IllegalArgumentException();
            } else {
                return numeratore / denominatore;
            }
-       } catch (IllegalArgumentException e) {
-           throw new IllegalArgumentException();
-       }
     }
+
 
     public static void main(String[] args) {
         //scrivo il primo blocco dove non ho valori null
         Integer numeratore1 = 10;
         Integer denominatore1 = 5;
 
-        try {
-            double divisione1 = control(numeratore1,denominatore1);
-            System.out.println("Risultato 1 = " + divisione1);
-        } catch (IllegalArgumentException e) {
-            System.out.println(" Nel risultato 1 c'è stato un errore: " + e.getMessage());
-        }
+        divisionCheck(numeratore1, denominatore1, " Nel risultato 1 c'è stato un errore: ");
 
         //scrivo il secondo blocco dove ho un valore null
         Integer numeratore2 = null;
         Integer denominatore2 = 5;
 
+        divisionCheck(numeratore2, denominatore2, "Nel risultato 2 c'è stato un errore: ");
+    }
+
+    private static void divisionCheck(Integer numeratore1, Integer denominatore1, String x) {
         try {
-            double divisione2 = control(numeratore2,denominatore2);
-            System.out.println("Risultato 1 = " + divisione2);
+            double divisione1 = control(numeratore1, denominatore1);
+            System.out.println("Risultato 1 = " + divisione1);
         } catch (IllegalArgumentException e) {
-            System.out.println("Nel risultato 2 c'è stato un errore: " + e.getMessage());
+            System.out.println(x + e.getMessage());
         }
     }
 }
