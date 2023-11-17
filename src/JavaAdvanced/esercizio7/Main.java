@@ -1,7 +1,7 @@
 package JavaAdvanced.esercizio7;
 
 //Scrivere una funzione che restituisca un hashset riempito
-//        Leggere l'hashSet e stampre grandezza ed elementi
+//        Leggere l'hashSet e stampare grandezza ed elementi
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -18,7 +18,7 @@ public class Main {
 
     }
     public static Set<Integer> hashSet () {
-        Set<Integer> lista = new HashSet<>(Arrays.asList(1,2,3,4,5));
+        Set<Integer> lista = new HashSet<>(Arrays.asList(1,2,3,4,5,3,5));
         return lista;
     }
 }
