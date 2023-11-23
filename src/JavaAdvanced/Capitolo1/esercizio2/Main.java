@@ -1,4 +1,4 @@
-package JavaAdvanced.esercizio2;
+package JavaAdvanced.Capitolo1.esercizio2;
 
 //Scrivere una funzione che controlli se un carattere
 //        è un numero altrimenti lanciare una eccezione.

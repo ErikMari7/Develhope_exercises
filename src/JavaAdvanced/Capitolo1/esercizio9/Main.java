@@ -1,4 +1,4 @@
-package JavaAdvanced.esercizio9;
+package JavaAdvanced.Capitolo1.esercizio9;
 
 //Scrivere una funzione che restituisca un hashset riempito
 //        Creare un oggeto dello stesso tipo inserito nell'HashSet e popolarlo
@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Hashset dopo rimozione: " + lista);
 
         lista.clear();
-        System.out.println("Hashset svuotato_: " + lista);
+        System.out.println("Hashset svuotato: " + lista);
     }
 
     public static Set<String> hashSet()  {

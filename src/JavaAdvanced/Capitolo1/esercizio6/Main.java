@@ -1,4 +1,4 @@
-package JavaAdvanced.esercizio6;
+package JavaAdvanced.Capitolo1.esercizio6;
 
 //Scrivere una funzione che accetti in input 2 int e ne stampi la somma
 //        Scrivere una funzione che accetti in input 1 char lo stampi

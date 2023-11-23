@@ -1,4 +1,4 @@
-package JavaAdvanced.esercizio1;
+package JavaAdvanced.Capitolo1.esercizio1;
 
 //Scrivere una funzione che controlli
 //        se un numero int è in un determinato range

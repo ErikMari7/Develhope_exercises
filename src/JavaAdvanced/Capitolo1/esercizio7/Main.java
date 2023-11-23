@@ -1,4 +1,4 @@
-package JavaAdvanced.esercizio7;
+package JavaAdvanced.Capitolo1.esercizio7;
 
 //Scrivere una funzione che restituisca un hashset riempito
 //        Leggere l'hashSet e stampare grandezza ed elementi

@@ -1,4 +1,4 @@
-package JavaAdvanced.esercizio4;
+package JavaAdvanced.Capitolo1.esercizio4;
 
 //Scrivere una funzione che accetti un array in input e provi
 //        a dividere un numero dell'array per 0 e gestisca sia

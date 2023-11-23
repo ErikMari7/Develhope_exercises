@@ -1,10 +1,9 @@
-package JavaAdvanced.esercizio8;
+package JavaAdvanced.Capitolo1.esercizio8;
 
 //Scrivere una funzione che restituisca un HashSet riempito
 //        Creare un oggetto dello stesso tipo inserito nell'HashSet e popolarlo
 //        Verificare che l' elemento sia parte del Set e stampare il risultato
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 

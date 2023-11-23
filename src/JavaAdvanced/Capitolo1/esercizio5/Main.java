@@ -1,4 +1,4 @@
-package JavaAdvanced.esercizio5;
+package JavaAdvanced.Capitolo1.esercizio5;
 
 //Scrivere una funzione che accetti in input un numeratore e un denominatore
 //        Controlli che il numeratore e il denominatore non siano null
