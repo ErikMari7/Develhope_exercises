@@ -22,6 +22,5 @@ public class Main {
         System.out.println("Secondo user");
         user2.stampa();
 
-
     }
 }
